@@ -1,0 +1,156 @@
+[
+    {"lat":42.337503 ,"lon":-71.084116, "ilat": 1, "ilon": 1, "city":"Boston Area", "tag": "BOS"},
+    {"lat":42.312408 ,"lon":-71.099728, "ilat": 1, "ilon": 1, "city":"Boston Area", "tag": "BOS"},
+    {"lat":42.326426 ,"lon":-71.087690, "ilat": 1, "ilon": 1, "city":"Boston Area", "tag": "BOS"},
+    {"lat":42.315048 ,"lon":-71.067981, "ilat": 1, "ilon": 1, "city":"Boston Area", "tag": "BOS"},
+    {"lat":42.318774 ,"lon":-71.063769, "ilat": 1, "ilon": 1, "city":"Boston Area", "tag": "BOS"},
+    {"lat":42.328090 ,"lon":-71.058266, "ilat": 1, "ilon": 1, "city":"Boston Area", "tag": "BOS"},
+    {"lat":33.453825 ,"lon":-112.083615, "ilat":1, "ilon":1, "city":"Phoenix", "tag": "Phoenix"},
+    {"lat":33.448530 ,"lon":-112.084690, "ilat":1, "ilon":1, "city":"Phoenix", "tag": "Phoenix"},
+    {"lat":33.456047 ,"lon":-112.068174, "ilat":1, "ilon":1, "city":"Phoenix", "tag": "Phoenix"},
+    {"lat":33.492637 ,"lon":-112.094101, "ilat":1, "ilon":1, "city":"Phoenix", "tag": "Phoenix"},
+    {"lat":33.478461 ,"lon":-112.075605, "ilat":1, "ilon":1, "city":"Phoenix", "tag": "Phoenix"},
+    {"lat":33.463456 ,"lon":-112.084279, "ilat":1, "ilon":1, "city":"Phoenix", "tag": "Phoenix"},
+    {"lat":47.596013 ,"lon":-122.318603, "ilat":1, "ilon":1, "city":"Seattle", "tag": "SEA"},
+    {"lat":47.613101 ,"lon":-122.318862, "ilat":1, "ilon":1, "city":"Seattle", "tag": "SEA"},
+    {"lat":47.615027 ,"lon":-122.353864, "ilat":1, "ilon":1, "city":"Seattle", "tag": "SEA"},
+    {"lat":47.625822 ,"lon":-122.345446, "ilat":1, "ilon":1, "city":"Seattle", "tag": "SEA"},
+    {"lat":47.666045 ,"lon":-122.379619, "ilat":1, "ilon":1, "city":"Seattle", "tag": "SEA"},
+    {"lat":47.595120 ,"lon":-122.329619, "ilat":1, "ilon":1, "city":"Seattle", "tag": "SEA"},
+    {
+        "city": "Miami", 
+        "lon": -80.19863930104073, 
+        "tag": "MIA", 
+        "ilon": 1, 
+        "lat": 25.77947092177274, 
+        "ilat": 1
+      }, 
+      {
+        "city": "Miami", 
+        "lon": -80.19352328400808, 
+        "tag": "MIA", 
+        "ilon": 1, 
+        "lat": 25.77947092177274, 
+        "ilat": 1
+      }, 
+      {
+        "city": "Miami", 
+        "lon": -80.19760011008097, 
+        "tag": "MIA", 
+        "ilon": 1, 
+        "lat": 25.784077765454978, 
+        "ilat": 1
+      }, 
+      {
+        "city": "Miami", 
+        "lon": -80.19248409304832, 
+        "tag": "MIA", 
+        "ilon": 1, 
+        "lat": 25.784077765454978, 
+        "ilat": 1
+      }, 
+      {
+        "city": "Miami", 
+        "lon": -80.20143712285545, 
+        "tag": "MIA", 
+        "ilon": 1, 
+        "lat": 25.788684609137213, 
+        "ilat": 1
+      }, 
+      {
+        "city": "Miami", 
+        "lon": -80.1963211058228, 
+        "tag": "MIA", 
+        "ilon": 1, 
+        "lat": 25.788684609137213, 
+        "ilat": 1
+      }, 
+      {
+        "city": "Miami", 
+        "lon": -80.19120508879017, 
+        "tag": "MIA", 
+        "ilon": 1, 
+        "lat": 25.788684609137213, 
+        "ilat": 1
+      }, 
+      {
+        "city": "Miami", 
+        "lon": -80.20143712285545, 
+        "tag": "MIA", 
+        "ilon": 1, 
+        "lat": 25.79329145281945, 
+        "ilat": 1
+      }, 
+      {
+        "city": "Miami", 
+        "lon": -80.1963211058228, 
+        "tag": "MIA", 
+        "ilon": 1, 
+        "lat": 25.79329145281945, 
+        "ilat": 1
+      }, 
+      {
+        "city": "Miami", 
+        "lon": -80.19120508879017, 
+        "tag": "MIA", 
+        "ilon": 1, 
+        "lat": 25.79329145281945, 
+        "ilat": 1
+      }, 
+      {
+        "city": "Miami", 
+        "lon": -80.20143712285545, 
+        "tag": "MIA", 
+        "ilon": 1, 
+        "lat": 25.797898296501685, 
+        "ilat": 1
+      }, 
+      {
+        "city": "Miami", 
+        "lon": -80.1963211058228, 
+        "tag": "MIA", 
+        "ilon": 1, 
+        "lat": 25.797898296501685, 
+        "ilat": 1
+      }, 
+      {
+        "city": "Miami", 
+        "lon": -80.19120508879017, 
+        "tag": "MIA", 
+        "ilon": 1, 
+        "lat": 25.797898296501685, 
+        "ilat": 1
+      }, 
+      {
+        "city": "Miami", 
+        "lon": -80.1987392232484, 
+        "tag": "MIA", 
+        "ilon": 1, 
+        "lat": 25.80250514018392, 
+        "ilat": 1
+      }, 
+      {
+        "city": "Miami", 
+        "lon": -80.19362320621575, 
+        "tag": "MIA", 
+        "ilon": 1, 
+        "lat": 25.80250514018392, 
+        "ilat": 1
+      }, 
+      {
+        "city": "Miami", 
+        "lon": -80.1987392232484, 
+        "tag": "MIA", 
+        "ilon": 1, 
+        "lat": 25.807111983866157, 
+        "ilat": 1
+      }, 
+      {
+        "city": "Miami", 
+        "lon": -80.19362320621575, 
+        "tag": "MIA", 
+        "ilon": 1, 
+        "lat": 25.807111983866157, 
+        "ilat": 1
+      }
+]
