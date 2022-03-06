@@ -28,7 +28,7 @@ python train.py resnet34v3
 Train the turning lane validation model.
 
 ```bash
-cd code/turningLaneExtraction
+cd code/turningLaneValidation
 python train.py
 ```
 
