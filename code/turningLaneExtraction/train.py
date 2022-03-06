@@ -129,7 +129,7 @@ class Train(TrainingFramework):
 
 if __name__ == "__main__":
 	#trainer = Train(sys.argv[1])
-	trainer = Train(sys.argv[1])
+	trainer = Train()
 	epochsisze = trainer.epochsize
 
 	config = {}
