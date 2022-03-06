@@ -1,5 +1,5 @@
-from dataloader_link import Dataloader, ParallelDataLoader
-from model_link import LinkModel
+from dataloader import Dataloader, ParallelDataLoader
+from model import LinkModel
 
 import os 
 import sys 
