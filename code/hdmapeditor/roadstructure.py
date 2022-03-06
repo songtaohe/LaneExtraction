@@ -203,6 +203,7 @@ class LaneMap():
             for nn in self.neighbors_all[nid]:
                 if nn not in self.neighbors_all:
                     print("unsolved error", nn)
+                    continue
 
                 if nid not in self.neighbors_all[nn]:
                     print("incomplete neighbors", nid, nn)
