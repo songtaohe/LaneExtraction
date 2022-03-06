@@ -10,6 +10,10 @@ Python versions: Python 2.7.12 (python) and Python 3.5.2 (python3).
 
 Python 2 Tensorflow version: 1.15.0
 
+Python 2 Scipy version: 1.1.0
+
+Python 3 Scipy version: 1.2.0
+
 CUDA version: 10.0
 
 CUDNN version: 7
