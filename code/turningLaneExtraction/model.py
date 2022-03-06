@@ -1,7 +1,7 @@
 import os 
 import sys 
 sys.path.append(os.path.dirname(os.path.dirname(sys.path[0])))
-
+sys.path.append(os.path.dirname(os.getcwd()))
 
 import numpy as np 
 import tensorflow as tf 

@@ -48,7 +48,7 @@ class Dataloader():
 			target = scipy.ndimage.imread(self.folder+"/lane%s.jpg" % ind)
 			#target_t = scipy.ndimage.imread(self.folder+"/terminal%s.jpg" % ind)
 			normal = scipy.ndimage.imread(self.folder+"/normal%s.jpg" % ind)
-			sdmap = scipy.ndimage.imread(self.folder+"/sdmap%s.jpg" % ind)
+			#sdmap = scipy.ndimage.imread(self.folder+"/sdmap%s.jpg" % ind)
 
 			#target_t = cv2.GaussianBlur(target_t, (5,5), 1.0)
 
@@ -58,8 +58,8 @@ class Dataloader():
 			if len(np.shape(target)) == 3:
 				target = target[:,:,0]
 
-			if len(np.shape(sdmap)) == 3:
-				sdmap = sdmap[:,:,0]
+			# if len(np.shape(sdmap)) == 3:
+			# 	sdmap = sdmap[:,:,0]
 
 			# if len(np.shape(target_t)) == 3:
 			# 	target_t = target_t[:,:,0]
@@ -72,7 +72,7 @@ class Dataloader():
 				sat_img = scipy.ndimage.rotate(sat_img, angle, reshape=False)
 				mask = scipy.ndimage.rotate(mask, angle, reshape=False)
 				target = scipy.ndimage.rotate(target, angle, reshape=False)
-				sdmap = scipy.ndimage.rotate(sdmap, angle, reshape=False)
+				#sdmap = scipy.ndimage.rotate(sdmap, angle, reshape=False)
 				# target_t = scipy.ndimage.rotate(target_t, angle, reshape=False)
 				normal = scipy.ndimage.rotate(normal, angle, reshape=False, cval=127)
 
@@ -94,7 +94,7 @@ class Dataloader():
 			sat_img = sat_img.astype(np.float) / 255.0 - 0.5 
 			mask = mask.astype(np.float) / 255.0 
 			target = target.astype(np.float) / 255.0
-			sdmap = sdmap.astype(np.float) / 255.0
+			#sdmap = sdmap.astype(np.float) / 255.0
 			# target_t = target_t.astype(np.float) / 255.0
 			
 
@@ -103,7 +103,7 @@ class Dataloader():
 			self.targets[i,:,:,0] = target
 			# self.targets_t[i,:,:,0] = target_t
 			self.normal[i,:,:,:] = normal
-			self.sdmaps[i,:,:,0] = sdmap
+			#self.sdmaps[i,:,:,0] = sdmap
 			
 			# augmentation on images 
 			if self.testing == False:
@@ -134,7 +134,7 @@ class Dataloader():
 				self.target_batch[i,:,:,:] = self.targets[tile_id, x:x+self.image_size, y:y+self.image_size,:]
 				self.target_t_batch[i,:,:,:] = self.targets_t[tile_id, x:x+self.image_size, y:y+self.image_size,:]
 				self.normal_batch[i,:,:,:] = self.normal[tile_id, x:x+self.image_size, y:y+self.image_size,:]
-				self.sdmap_batch[i,:,:,:] = self.sdmaps[tile_id, x:x+self.image_size, y:y+self.image_size,:]
+				#self.sdmap_batch[i,:,:,:] = self.sdmaps[tile_id, x:x+self.image_size, y:y+self.image_size,:]
 				break
 		
 

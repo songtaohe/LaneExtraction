@@ -6,3 +6,36 @@ Digital maps with lane-level details are the foundation of many applications. Ho
 ## View the dataset and annotate new images
 
 Please check the instructions in [code/hdmapeditor](code/hdmapeditor). 
+
+## Create training data
+
+We have the raw dataset in the [dataset](dataset) folder. To train the models, we have to first create the necessary data, e.g., the lane segmentation.
+
+```bash
+cd code
+python3 create_training_data.py
+```
+
+## Train the models
+
+Train the lane-and-direction extraction model.
+
+```bash
+cd code/laneAndDirectionExtraction
+python train.py resnet34v3
+```
+
+Train the turning lane validation model.
+
+```bash
+cd code/turningLaneExtraction
+python train.py
+```
+
+Train the turning lane extraction model.
+
+```bash
+cd code/turningLaneExtraction
+python train.py
+```
+

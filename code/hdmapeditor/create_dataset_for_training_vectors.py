@@ -8,7 +8,6 @@ import os
 import sys 
 sys.path.append(os.path.dirname(sys.path[0]))
 
-from satellite import mapbox as md
 from PIL import Image 
 import numpy as np 
 import scipy.misc
