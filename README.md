@@ -54,8 +54,8 @@ cd code/turningLaneExtraction
 python train.py
 ```
 
-## Inference
+## Inference and Evaluation
 
-TODO
+This part is not done yet. However, there is some untested code in the code_for_reference_untested folder which might be useful. 
 
 
